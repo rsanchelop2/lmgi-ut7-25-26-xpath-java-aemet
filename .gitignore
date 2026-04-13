@@ -6,3 +6,7 @@
 .idea/misc.xml
 target/classes/es/masanz/ut7/Main.class
 .idea/workspace.xml
+target/classes/es/masanz/ut7/TimeServer.class
+target/classes/guide.html
+target/classes/templates/clima.ftl
+target/classes/templates/clima_new.ftl
