@@ -25,7 +25,6 @@ public class Main {
             String date = LocalDate.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
             System.out.println("Obteniendo datos meteorológicos para: " + date);
 
-            // Conectar a AEMET
             Document doc = Jsoup.connect(URL_AEMET).get();
 
             // Obtener datos del día
